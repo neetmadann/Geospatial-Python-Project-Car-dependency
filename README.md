@@ -21,25 +21,26 @@ This research explores whether **urban form**—the physical layout and structur
 - **Urban form metrics** (68 variables) were generated using Voronoi tessellation with `momepy`.
 - **Spatial cross-validation** was performed using K-means clustering and K-fold evaluation.
 
-## Project Structure
-├── data/
-│ ├── msoa_buildings.geojson
-│ ├── streets.geojson
-│ └── census_data.csv
-├── notebooks/
-│ ├── 01_data_processing.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_model_training.ipynb
-│ └── 04_visualization.ipynb
-├── src/
-│ ├── preprocessing.py
-│ ├── urban_form_features.py
-│ ├── models.py
-│ └── evaluation.py
-├── results/
-│ └── choropleth_maps/
-├── README.md
-└── requirements.txt
+<pre> ## 📁 Project Structure 
+  <code> 
+    ├── data/ │ 
+    ├── msoa_buildings.geojson │ 
+    ├── streets.geojson 
+    │ └── census_data.csv 
+    ├── notebooks/ │ 
+    ├── 01_data_processing.ipynb │ 
+    ├── 02_feature_engineering.ipynb │ 
+    ├── 03_model_training.ipynb 
+    │ └── 04_visualization.ipynb ├── src/ │ 
+    ├── preprocessing.py │ 
+    ├── urban_form_features.py │ 
+    ├── models.py 
+    │ └── evaluation.py 
+    ├── results/ 
+    │ └── choropleth_maps/ 
+    ├── README.md 
+    └── requirements.txt </code> 
+</pre>
 
 ## 📊 Results Summary
 
